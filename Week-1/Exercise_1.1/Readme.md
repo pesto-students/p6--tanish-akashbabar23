@@ -2,7 +2,7 @@
  A) What is the main functionality of the browser?
  Ans: A web browser takes you anywhere on the internet. It retrieves information from other parts of the web and displays it on your desktop or mobile device. Each time a browser loads a web page, it processes the HTML, which may include text, links, and references to images and other items, such as cascading style sheets and JavaScript functions. The browser processes these items, then renders them in the browser window.
 
-![alt text](E:\Pesto\GIT_MAIN\p6--tanish-akashbabar23\Week-1\Exercise_1.1\Images\main functionality of the browser.jpg)
+![alt text](./Images/main%20functionality%20of%20the%20browser.jpg)
  
  B) High Level Components of a browser
  Ans:
@@ -18,7 +18,7 @@
  Ans: The responsibility of the rendering engine is well… Rendering, that is display of the requested contents on the browser screen.
  By default, the rendering engine can display HTML and XML documents and images. It can display other types of data via plug-ins or extension; for example, displaying PDF documents using a PDF viewer plug-in. However, in this chapter we will focus on the main use case: displaying HTML and images that are formatted using CSS.
 
-![alt text](E:\Pesto\GIT_MAIN\p6--tanish-akashbabar23\Week-1\Exercise_1.1\Images\Rendering Engine.jpg)
+![alt text](./Images/Rendering%20Engine.jpg)
 
  
  D) Parsers (HTML, CSS, etc)
@@ -43,4 +43,4 @@ H) Layout and Painting
 3. Layout computes the exact position and size of each object.
 The last step is paint, which takes in the final render tree and renders the pixels to the screen.
 
-![alt text](E:\Pesto\GIT_MAIN\p6--tanish-akashbabar23\Week-1\Exercise_1.1\Images\Layout and Painting.jpg)
+![alt text](./Images/Layout%20and%20Painting.jpg)
