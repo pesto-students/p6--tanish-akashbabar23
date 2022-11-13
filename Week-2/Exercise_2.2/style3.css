@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container
+{
+    background: rgb(228, 142, 142);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transition: transform 1.5s;
+}
+
+.one
+{
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+.two
+{
+    top: 0;
+    right: 0;
+    background-color: yellow;
+}
+.three
+{
+    bottom: 0;
+    left: 0;
+    background-color: blue
+}
+.four
+{
+    bottom: 0;
+    right: 0;
+   background-color: green ;
+}
+
+.square-wrapper span
+{
+    font-size: 40px;
+    margin-top: 90px;
+}
+.square-wrapper
+{
+    position: relative;
+    align-content: center;
+    justify-content: center; 
+    height: 200px;
+    width: 200px;
+    display: flex;
+     
+}
+
+.square-wrapper:hover .one{
+    transform: translate(-100%, 0) rotate(90deg);
+}
+
+.square-wrapper:hover .two{
+    transform: translate(100%, 0) rotate(-0.25turn);
+}
+
+.square-wrapper:hover .three{
+    transform: translate(-100%, 0)rotate(-0.25turn);
+}
+
+.square-wrapper:hover .four{
+    transform: translate(100%, 0) rotate(90deg);
+}
